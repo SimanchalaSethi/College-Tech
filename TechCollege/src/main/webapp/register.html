@@ -1,0 +1,72 @@
+<!DOCTYPE html>
+<html>
+  <head>
+    <meta charset="ISO-8859-1" />
+    <title>Insert title here</title>
+    <style type="text/css">
+     body {
+        background-image: url("5.jpg");
+         background-size: 100% 100%;
+      }
+     
+     
+      form {
+        border: 2px solid black;
+        background-color: rgb(126, 176, 138);
+        background-color: rgba(216, 191, 216, 0.600);
+        border-radius: 9px;
+      
+        width: 30%;
+        height: 300px;
+   
+        padding: 50px;
+        margin: 200px auto;
+      }
+      input {
+        border-radius: 5px;
+        padding: 6px;
+        width: 200px;
+        
+      }
+      .btn{
+        margin-left: 100px;
+         background-color: aqua;
+         margin-top: 10px;
+      }
+      .btn:hover{
+         background-color: rebeccapurple;
+         color: white;
+      }
+     
+    </style>
+  </head>
+  <body>
+   
+    <form action="register" method="post">
+      <div>
+        <label>NAME:</label> &nbsp &nbsp &nbsp &nbsp &nbsp;
+        <input type="TEXT" name="NAME" /> <br /><br />
+      </div>
+      <div>
+        <label>GENDER:</label> &nbsp &nbsp &nbsp;
+        <input type="TEXT" name="GENDER" />
+        <br /><br />
+      </div>
+      <div>
+        <label>BRANCH:</label> &nbsp;&nbsp;&nbsp;&nbsp;
+        <input type="TEXT" name="BRANCH" /><br /><br />
+      </div>
+      <div>
+        <label>REG.NO.:</label> &nbsp &nbsp &nbsp;
+        <input type="LET" name="REG" /><br /><br />
+      </div>
+      <div>
+        <label>PASSWORD:</label>
+        <input type="PASSWORD" name="PASSWORD" /><br /><br />
+      </div>
+      <div>
+        <input class="btn" type="submit" value="REGISTER" />
+      </div>
+    </form>
+  </body>
+</html>

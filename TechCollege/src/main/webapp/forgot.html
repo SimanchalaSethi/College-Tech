@@ -1,0 +1,56 @@
+<!DOCTYPE html>
+<html>
+  <head>
+    <meta charset="ISO-8859-1" />
+    <title>Insert title here</title>
+    <style>
+      form {
+        height: 50%;
+        width: 50%;
+        background-color: rgba(216, 191, 216, 0.7);
+        margin: 200px auto;
+        background-position: fixed;
+        border-radius: 5px;
+      }
+      input {
+        font-family: sans-serif;
+        background-color: rgb(242, 249, 249);
+        width: 70%;
+        height: 70%;
+        margin: 30px 50px;
+        border-radius: 20px;
+      }
+      h3 {
+        padding: 50px;
+        margin: 1cm;
+        text-align: center;
+        font-family: Verdana, Arial, Helvetica, sans-serif;
+        font-weight: bolder;
+      }
+      body {
+        background-image: url("5.jpg");
+
+        background-size: 100%;
+      }
+      button {
+        background-color: aqua;
+        border-radius: 20px;
+        height: inherit;
+        margin: 90px 320px;
+      }
+      button:hover {
+        background-color: rgb(115, 58, 239);
+        color: white;
+      }
+    </style>
+  </head>
+  <body>
+    <form action="fog" method="post">
+      <h3>Enter your Registration Number & Change your Password</h3>
+      <input type="let" placeholder="Registration No." name="reg" />
+      <br />
+      <input type="password" placeholder="Enter new password" name="pw" /><br />
+      <button type="submit">submit</button>
+    </form>
+  </body>
+</html>
